@@ -1,0 +1,186 @@
+* {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul {
+    font-family: Georgia;
+    font-size: 40px;
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1vh;
+    top: 1vh;
+}
+
+subnav ul {
+    font-family: Georgia;
+    font-size: 40px;
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1vh;
+    top: 1vh;
+}
+
+.sideNav {
+  /* height: 100vh; */
+
+  position: fixed;
+  height: 100vw;
+  width: 310px;
+  display: flex;
+  background-color: #eee;
+
+  padding: 16px;
+}
+
+.information{
+  height: 100vh;
+  width: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 120pt;
+  color: white;
+  position: absolute;
+  left: 100vh;
+  top: 90vh;
+  transform: translate(-50vh, -50vh);
+}
+
+.mainContainer {
+  padding-left: 310px;
+}
+
+.contentContainer {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+p {
+  font-size: 24pt;
+}
+
+.thumbnailContainer {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  width: 33%;
+}
+
+.columnContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 05px;
+}
+
+
+
+
+
+.heroTitle {
+  background-image: url('https://i.dlpng.com/static/png/6874930_preview.png');
+  height: 100vh;
+  width: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: #fff;
+  padding: 32px;
+}
+
+.mainTitleText {
+  font-size: 64pt;
+  color: white;
+  position: absolute;
+  left: 54vh;
+  top: 90vh;
+  transform: translate(-50vh, -50vh);
+}
+
+.subText {
+  font-size: 14pt;
+  position: absolute;
+  left: 65vh;
+  top: 103vh;
+  transform: translate(-50vh, -50vh);
+}
+
+.stopBullying{
+  height: 100vh;
+  width: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.stopIt{
+  font-size: 120pt;
+  color: black;
+  position: absolute;
+  left: 123vh;
+  top: 66vh;
+  transform: translate(-50vh, -50vh);
+}
+.bullying {
+  font-size: 120pt;
+  color:black;
+  position: absolute;
+  left: 105vh;
+  top: 103vh;
+  transform: translate(-50vh, -50vh);
+}
+
+
+.heroTitleTwo {
+  background-image: url('https://ak9.picdn.net/shutterstock/videos/4577759/thumb/1.jpg');
+  height: 100vh;
+  width: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: #fff;
+  padding: 32px;
+}
+
+.mainTitleTextTwo {
+  font-size: 64pt;
+  color: white;
+  position: absolute;
+  left: 192vh;
+  top: 90vh;
+  transform: translate(-50vh, -50vh);
+}
+
+.subTextTwo {
+  font-size: 14pt;
+  position: absolute;
+  left: 210vh;
+  top: 103vh;
+  transform: translate(-50vh, -50vh);
+}
+
+.mainCntainer {
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
